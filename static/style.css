@@ -1,0 +1,36 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFF8DC;
+    margin: auto;
+    padding: 1rem;
+}
+
+.titulo{
+    font-size: 18pt;
+    color: #4E342E;
+    margin-bottom: 1rem;
+}
+
+.txtcentral{
+    text-align: center;
+}
+
+.txt-14{
+    font-size: 14pt;
+}
+
+input, label{
+    margin: 10px;
+}
+
+button, .btn-submit{
+    cursor: pointer; 
+    border-radius: 5px;
+    font-size: 12pt;
+    padding: 5px;
+}
+
+.btn-enviar, .btn-submit{
+    background-color: #A89A8E;
+    width: 5%;
+}

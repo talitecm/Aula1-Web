@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./static/style.css">
+</head>
+
+<body>
+    <div class="form">
+        <h1 class="titulo">Formulário</h1>
+
+        <form class="txt-14" action="/" method="get">
+            <label for="fname">Nome:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Nome Completo" requerid class="txt-14"><br>
+
+            <label for="fname">Telefone:</label><br>
+            <input type="text" id="ftelefone" telefone="ftelefone" placeholder="Telefone" requerid class="txt-14"><br>
+
+            <label for="ftelefone">E-mail:</label><br>
+            <input type="email" id="femail" name="femail" placeholder="Digite o e-mail" requerid class="txt-14"><br>
+
+            <label for="fendereco">Endereco:</label><br>
+            <input type="text" id="fendereco" name="fendereco" placeholder="Digite o endereco" requerid class="txt-14"><br>
+
+            <label for="curso">Curso Desejado:</label>
+            <select id="curso" name="curso" class="txt-14">
+                <option value="c-info">Informatica</option>
+                <option value="c-prog">Desenvolvimento Web</option>
+                <option value="c-design">Design</option>
+                <option value="c-iot">Internet das Coisas</option>
+            </select><br><br>
+
+            <input type="checkbox" id="termos" name="termos" requerid class="txt-14">
+            <label for="termo-ade" class="txt-14">Li e Aceito os Termos de Adesão</label><br><br>
+
+            <input type="submit" value="Enviar" class="btn-submit">
+        </form>
+    </div>
+</body>
+
+</html>
